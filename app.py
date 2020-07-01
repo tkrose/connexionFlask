@@ -1,5 +1,5 @@
-from flask import render_template
-import connexionTrue
+from flask import Flask, render_template
+import connexion
 
 #Create the application instance
 app = connexion.App(__name__, specification_dir='./')
